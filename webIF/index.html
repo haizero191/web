@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IF</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
+	<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+	<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+
+	
+	
+</head>
+<body>
+	<header>
+		<section class="Home">
+		  <div class="bg"></div>
+		  <div class="text text-light container row" style="bottom: 30%;position: relative;">
+		  	<div class="col-sm-6 row" style="position: absolute;">
+			  	<h1 class="col-sm-12 mb-4 p-0">What is Lorem Ipsum?</h1>
+			  	<p class="col-sm-12 p-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			  	<a href="#0" class="bttn-dark">Get Started</a>
+		  	</div>
+		  </div>
+		  <a class="scroll-arrow" href="#our-project"><img src="https://img.icons8.com/fluent-systems-regular/32/FFFFFF/double-down.png" /></a>
+		</section>
+
+		<section class="Our-project" >
+		    <div class="bg" id="our-project">
+		    	<div class="w-100 h-100 ">
+		    	<div class="box-container h-100">
+				    <div class="box box01 "><h1>SLIDE-01</h1></div>
+				    <div class="box box02 " id="box2"><h1>SLIDE-02</h1></div>
+				    <div class="box box03 " id="box3"><h1>SLIDE-03</h1></div>
+				    <div class="box box04 "><h1>SLIDE-04</h1></div>
+				</div>
+		    	</div>
+		   	</div>
+		   	<div class="w-100 h-100">
+		   			<a href="#0" class="center-items prevIcon " onclick="prevPanels()" style="position: absolute; right: 95%; top: 49.5%;z-index: 999;">
+		   				<img src="https://img.icons8.com/carbon-copy/32/FFFFFF/left-squared.png"/>
+		   			</a>
+		   			<a href="#0" class="center-items nextIcon" onclick="nextPanels()" style="position: absolute; left: 95%; top: 49.5%; z-index: 999;">
+		   				<img src="https://img.icons8.com/carbon-copy/32/FFFFFF/more-than.png"/>
+		   			</a>
+		   	</div>
+		   	
+
+		</section>
+
+		<section class="Contact text-light row center-items w-100 m-0" id="contact">
+			<div class="bg"></div>
+			<div class="row container border-bottom p-0 w-100">
+			  	<div class="col-sm-12 col-md">
+			  		<h5><b>Product</b></h5>
+			  		<ul>
+			  			<li><a>Landing Pages</a></li>
+			  			<li><a>Design Logo</a></li>
+			  			<li><a>Development Web</a></li>
+			  			<li><a>AdMap</a></li>
+			  		</ul>
+			  	</div>
+			  	<div class="col-sm-12 col-md">
+			  		<h5><b>Product</b></h5>
+			  		<ul>
+			  			<li><a>Landing Pages</a></li>
+			  			<li><a>Design Logo</a></li>
+			  			<li><a>Development Web</a></li>
+			  			<li><a>AdMap</a></li>
+			  		</ul>
+			  	</div>
+			  	<div class="col-sm-12 col-md">
+			  		<h5><b>Product</b></h5>
+			  		<ul>
+			  			<li><a>Landing Pages</a></li>
+			  			<li><a>Design Logo</a></li>
+			  			<li><a>Development Web</a></li>
+			  			<li><a>AdMap</a></li>
+			  		</ul>
+			  	</div>
+			  	<div class="col-sm-12 col-md">
+			  		<h5><b>Product</b></h5>
+			  		<ul>
+			  			<li><a>Landing Pages</a></li>
+			  			<li><a>Design Logo</a></li>
+			  			<li><a>Development Web</a></li>
+			  			<li><a>AdMap</a></li>
+			  		</ul>
+			  	</div>
+			  	<div class="col-sm-12 col-md">
+			  		<h5><b>Product</b></h5>
+			  		<ul>
+			  			<li><a>Landing Pages</a></li>
+			  			<li><a>Design Logo</a></li>
+			  			<li><a>Development Web</a></li>
+			  			<li><a>AdMap</a></li>
+			  		</ul>
+			  	</div>
+			</div>
+
+			<div class="container p-0 m-0" style="position: relative;top:2%;">
+				<div class="row">
+					<div class="col-sm-8">
+						<img src="https://img.icons8.com/nolan/40/facebook.png"/>
+						<img src="https://img.icons8.com/nolan/40/twitter.png"/>
+						<img src="https://img.icons8.com/nolan/40/instagram-new.png"/>
+						<img src="https://img.icons8.com/nolan/40/youtube-play.png"/>
+					</div>
+					<span class="main-footer-copy-text d-block col-sm-4">
+						© 2021 Postclick, Inc. All Rights Reserved.
+					</span>
+				</div>
+			</div>
+	
+		</section>	
+
+
+		<div class="modal fade" id="myModal" >
+		    <div class="modal-dialog modal-dialog-centered" role="document">
+		      <div class="modal-content">
+		      
+		        <!-- Modal Header -->
+		        <div class="modal-header">
+		          <h4 class="modal-title">Điền thông tin cá nhân của bạn</h4>
+		          <button type="button" class="close" data-dismiss="modal">×</button>
+		        </div>    
+		        <!-- Modal body -->
+		        <div class="modal-body">
+		         	<div class="h-100 form-groud">
+		         		<label for="#name">Tên đầy đủ: </label>
+		         		<input class="form-control" id="name"></input>
+		         	</div>
+		         	<div class="h-100 w-100 form-groud">
+		         		<label for="#mail">Địa chỉ mail: </label>
+		         		<input class="form-control" id="mail"></input>
+		         	</div>
+		        </div>
+		        <!-- Modal footer -->
+		        <div class="modal-footer">
+		          <button type="button" class="btn btn-danger">Submit</button>
+		        </div>   
+		      </div>
+		    </div>
+	  	</div>
+
+
+	</header>
+	<script type="text/javascript" src="./js/index.js"></script>
+	
+</body>
+</html>
